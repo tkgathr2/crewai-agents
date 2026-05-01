@@ -1,0 +1,2 @@
+crewai[anthropic]>=1.14.0
+crewai-tools>=1.14.0
