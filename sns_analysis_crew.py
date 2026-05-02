@@ -2,7 +2,7 @@
 SNS分析チーム - CrewAI マルチエージェント
 ==========================================
 10人のAIエージェントがSNSアカウントのBAN対策・運用改善を分析するチーム。
-model: anthropic/claude-sonnet-4
+model: anthropic/claude-sonnet-4-6
 """
 
 import os
@@ -12,7 +12,7 @@ from crewai import Agent, Task, Crew, Process
 # 事前に設定すること: export ANTHROPIC_API_KEY="sk-ant-api03-xxxxx"
 assert os.getenv("ANTHROPIC_API_KEY"), "ANTHROPIC_API_KEY 環境変数を設定してください"
 
-MODEL = "anthropic/claude-sonnet-4"
+MODEL = "anthropic/claude-sonnet-4-6"
 
 # ============================================================
 # エージェント定義（10名）

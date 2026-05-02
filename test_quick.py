@@ -12,7 +12,7 @@ researcher = Agent(
     goal="与えられたトピックについて要点を3つにまとめる",
     backstory="あなたは優秀なリサーチャーです。",
     verbose=True,
-    llm="anthropic/claude-sonnet-4",
+    llm="anthropic/claude-haiku-4-5-20251001",
 )
 
 writer = Agent(
@@ -20,7 +20,7 @@ writer = Agent(
     goal="リサーチ結果を読みやすい文章にまとめる",
     backstory="あなたは文章作成のプロです。",
     verbose=True,
-    llm="anthropic/claude-sonnet-4",
+    llm="anthropic/claude-haiku-4-5-20251001",
 )
 
 task = Task(
